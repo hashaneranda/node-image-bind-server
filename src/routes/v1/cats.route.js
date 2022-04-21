@@ -18,7 +18,7 @@ module.exports = router;
 
 /**
  * @swagger
- * path:
+ * paths:
  *  /cats:
  *    get:
  *      summary: Generate New cat image
@@ -51,8 +51,6 @@ module.exports = router;
  *          content:
  *            application/json:
  *              schema:
- *                 $ref: '#/components/schemas/Cat'
- *        "403":
- *          $ref: '#/components/responses/Forbidden'
+ *                 $ref: '#/components/schemas/Cats'
  *
  *  */
